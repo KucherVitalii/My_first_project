@@ -302,8 +302,10 @@ left: 108px;
 .list:hover {
     color: orange;
 }
-
-@media (max-width: 1200px) {
+span {
+    color: rgb(221, 224, 50);
+}
+@media (max-width: 1400px) {
     .header_title,
     .header_button,
     .header_suptitle {
@@ -350,3 +352,17 @@ left: 108px;
 
     }
 }
+@media (max-width: 800px) {
+    body {
+        text-align: center;
+        display: block;
+    }
+    .about_us {
+        display: block;
+    }
+    .cards {
+        width: auto;
+    }
+    .container {
+        margin: auto auto;
+    }
